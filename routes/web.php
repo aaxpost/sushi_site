@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return "Главная";
+});
+
+Route::get('/name_city/name_category', function () {
+    return "Категории";
+});
+
+Route::get('/name_product', function () {
+    return "Продукт";
+});
+
+Route::get('/reviews', function () {
+    return "Отзывы";
+});
+
+Route::get('/order', function () {
+    return "Оформление заказа";
 });
