@@ -1,0 +1,151 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{
+    font-family: 'Arial', sans-serif;
+    
+}
+ * {
+     box-sizing: border-box;
+     font-family: D;
+ }
+
+ 
+
+ 
+.project{
+    width: 1930px;/*вернуть 1920*/
+    height: 2295px;
+    margin: 0 auto;
+    display: flex;
+}
+.left-bar{
+    width: 320px;
+    background-color: aqua;
+    height: 100%;
+    border: 1px solid aqua;
+}
+.right-bar{
+    width: 430px;
+    height: 100%;
+    background-color: burlywood;
+    border: 1px solid burlywood;
+}
+.main{
+    width: 1170px;
+    height: 2295px;
+    background: #F2F2F2;
+}
+.header{
+    height: 94.5px;
+    width: 100%;
+    border-bottom: 0.5px solid #A4ACAD;
+    display: flex;
+}
+.header__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+
+    width: 220px;
+    height: 100%;
+
+    border-right: 0.5px solid #A4ACAD;
+}
+.contact-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.header__contact-telephone{  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+
+    color: #FF9846;
+}
+.contact__time{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #A4ACAD;
+}
+.header__wrap{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.header__wrap-city{
+    padding-top: 26px;
+     
+}
+
+.header__wrap-city {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A4ACAD;
+}
+.city{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.header__wrap-content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
