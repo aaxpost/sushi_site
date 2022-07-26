@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Главная";
+    return view('layouts.layout');
 });
 
-Route::get('/name_city/name_category', function () {
+Route::get('/name_category', function () {
     return "Категории";
 });
 
