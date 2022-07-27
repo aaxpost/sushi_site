@@ -36,3 +36,7 @@ Route::get('/order', function () {
 Route::get('/order1', function () {
     return "Оформление заказа1";
 });
+
+Route::get('/order2', function () {
+    return "Оформление заказа2";
+});
