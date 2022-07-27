@@ -32,3 +32,7 @@ Route::get('/reviews', function () {
 Route::get('/order', function () {
     return "Оформление заказа";
 });
+
+Route::get('/order1', function () {
+    return "Оформление заказа1";
+});
