@@ -13,34 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::redirect('/admin', '/login');
+
 Route::get('/', function () {
     return view('layouts.layout');
 });
 
-Route::get('/name_category', function () {
-    return "Категории";
-});
+Route::get('/dashboard', function () {
+    return view('admin.layouts.index');
+})->middleware(['auth'])->name('dashboard');
 
-Route::get('/name_product', function () {
-    return "Продукт";
-});
+/*
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+*/
 
-Route::get('/reviews', function () {
-    return "Отзывы";
-});
-
-Route::get('/order', function () {
-    return "Оформление заказа";
-});
-
-Route::get('/order1', function () {
-    return "Оформление заказа1";
-});
+require __DIR__.'/auth.php';
 
 
-
-Route::prefix('admin')->group(function () {
-    Route::get('/', function () {
-        return view('admin.layouts.index');
-    });
-});

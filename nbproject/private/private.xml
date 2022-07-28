@@ -4,9 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/var/www/example.com/routes/web.php</file>
-            <file>file:/var/www/example.com/public/images/clock_ico.jpg</file>
-            <file>file:/var/www/example.com/resources/views/layouts/layout.blade.php</file>
-            <file>file:/var/www/example.com/public/css/style.css</file>
+            <file>file:/var/www/example.com/.env</file>
+            <file>file:/var/www/example.com/resources/views/dashboard.blade.php</file>
+            <file>file:/var/www/example.com/resources/views/admin/layouts/index.blade.php</file>
+            <file>file:/var/www/example.com/resources/views/admin/login/index.blade.php</file>
+            <file>file:/var/www/example.com/routes/auth.php</file>
         </group>
     </open-files>
 </project-private>

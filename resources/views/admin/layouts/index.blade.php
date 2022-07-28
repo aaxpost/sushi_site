@@ -34,6 +34,8 @@
     <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
+  http://example.com/logout
+  
   <!-- Navbar -->
 
   <!-- /.navbar -->
@@ -282,19 +284,7 @@
                 </a>
               </li>
             </ul>
-          </li>
-        
-         
-         
-          
-         
-          
-         
-          
-          
-          
-          
-          
+          </li>  
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -314,7 +304,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Главная</a></li>
-              <li class="breadcrumb-item active">Dashboard v1</li>
+              <li class="breadcrumb-item"><a href="logout">Выход</a></li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
