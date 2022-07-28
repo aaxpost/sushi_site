@@ -37,6 +37,10 @@ Route::get('/order1', function () {
     return "Оформление заказа1";
 });
 
-Route::get('/order2', function () {
-    return "Оформление заказа2";
+
+
+Route::prefix('admin')->group(function () {
+    Route::get('/', function () {
+        return view('admin.layouts.index');
+    });
 });
